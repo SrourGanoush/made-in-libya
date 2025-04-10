@@ -189,7 +189,7 @@ img {
 }
 
 .hero-image-pair img {
-    max-width: 200px; /* The crucial max-width */
+    max-width: 150px; /* The crucial max-width */
     height: auto; /* Maintain aspect ratio */
     border-radius: 8px; /* Optional: add rounded corners */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: add subtle shadow */
@@ -411,3 +411,26 @@ img {
     .final-cta .btn { width: 80%; max-width: 300px; margin: 8px 0;}
 
 }
+
+/* --- Styling for Solution Icons --- */
+.solution-icon {
+    color: var(--primary-color); /* Use the main teal color */
+    margin-bottom: 15px;      /* Space between icon and heading */
+    display: block;           /* Ensure it takes its own line if needed */
+    /* Centering is handled by text-align: center on the parent .point div */
+}
+
+/* Ensure the parent container has text-align center if not already set */
+.solution-points .point {
+    text-align: center; /* This should already be there from previous styles, but good to confirm */
+}
+
+/* --- Styling for Audience Icons --- */
+.audience-icon {
+    color: var(--primary-color); /* Use your teal color */
+    margin-bottom: 15px; /* Space below the icon */
+    display: block; /* Make it a block element for centering */
+    margin-left: auto;
+    margin-right: auto;
+}
+
